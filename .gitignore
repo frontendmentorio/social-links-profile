@@ -1,16 +1,66 @@
-# Avoid accidental upload of the Sketch and Figma design files
+# Design files
 #####################################################
-## Please do not remove lines 5 and 6 - thanks! 🙂 ##
+## Please do not remove lines 4-6 - thanks! 🙂 ##
 #####################################################
 *.sketch
 *.fig
-
-# Avoid accidental XD upload if you convert the design file
-###############################################
-## Please do not remove line 12 - thanks! 🙂 ##
-###############################################
 *.xd
 
-# Avoid your project being littered with annoying .DS_Store files!
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.cache/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS files
 .DS_Store
-.prettierignore
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Package manager lock files (optional - uncomment if not needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Misc
+.vercel/
+.netlify/
+.parcel-cache/
+.turbo/
+*.local
